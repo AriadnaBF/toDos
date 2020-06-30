@@ -1,3 +1,6 @@
-let store = [];
+let store = {
+  pendingTasks: [],
+  deletedTasks: [],
+};
 
 export { store };

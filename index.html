@@ -19,12 +19,19 @@
   </head>
   <body>
     <div class="container-md">
-      <form action="" id="to-do-form">
-        <input type="text" id="to-do-input" />
-        <input type="submit" id="to-do-submit" value="Añadir" />
-      </form>
-      <ul id="to-do-list"></ul>
-      <script src="index.js" type="module"></script>
+      <div class="row">
+        <div class="col-6">
+          <form action="" id="to-do-form" class="mx-auto mt-5">
+            <input type="text" id="to-do-input" required />
+            <input type="submit" id="to-do-submit" value="Añadir" />
+          </form>
+          <h4 class="mt-4">Cosas por hacer:</h4>
+          <ul id="to-do-list"></ul>
+          <h4 class="mt-5">Tareas completadas:</h4>
+          <ul id="complete-list"></ul>
+        </div>
+      </div>
     </div>
+    <script src="./index2.js" type="module"></script>
   </body>
 </html>
